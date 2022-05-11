@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resource majorVersion="1" minorVersion="11" useXmlUI="false">
+    <image name="BackgroundRect.png"  />
+    <image name="fs2.jpg"  />
+        <image name="mp4.jpg"  />
+    <image name="round-mask.png"  />
+    <image name="sidemenu-top.png"  />
+    <image name="text-field-underline.png"  />
+    <theme name="Theme">
+        <val key="@includeNativeBool" value="true" />
+        <val key="Button.bgColor" value="cc0000" />
+        <val key="Button.bgImage" value="text-field-underline.png" />
+        <val key="Button.bgType" value="1" />
+        <val key="Button.fgColor" value="cc0000" />
+        <val key="Button.transparency" value="0" />
+        <val key="Label.transparency" value="0" />
+        <val key="LoginButton.align" value="4" />
+        <val key="LoginButton.bgColor" value="cc0000" />
+        <val key="LoginButton.fgColor" value="ffffff" />
+        <font key="LoginButton.font" type="ttf" face="0" style="0" size="0" name="native:MainRegular" family="native:MainRegular" sizeSettings="3" actualSize="3.5" />
+        <val key="LoginButton.marUnit" value="2,2,2,2" />
+        <val key="LoginButton.margin" value="3.0,3.0,1.0,1.0" />
+        <val key="LoginButton.padUnit" value="2,2,2,2" />
+        <val key="LoginButton.padding" value="2.0,2.0,2.0,2.0" />
+        <val key="LoginButton.press#align" value="4" />
+        <val key="LoginButton.press#bgColor" value="cc66ff" />
+        <val key="LoginButton.press#fgColor" value="cccccc" />
+        <font key="LoginButton.press#font" type="ttf" face="0" style="0" size="0" name="native:MainRegular" family="native:MainRegular" sizeSettings="3" actualSize="2.5" />
+        <val key="LoginButton.press#marUnit" value="2,2,2,2" />
+        <val key="LoginButton.press#margin" value="3.0,3.0,1.0,1.0" />
+        <val key="LoginButton.press#padUnit" value="2,2,2,2" />
+        <val key="LoginButton.press#padding" value="2.0,2.0,2.0,2.0" />
+        <val key="LoginButton.press#transparency" value="255" />
+        <val key="LoginButton.sel#align" value="4" />
+        <val key="LoginButton.sel#bgColor" value="cc66ff" />
+        <val key="LoginButton.sel#fgColor" value="ff33" />
+        <font key="LoginButton.sel#font" type="ttf" face="0" style="0" size="0" name="native:MainRegular" family="native:MainRegular" sizeSettings="3" actualSize="2.5" />
+        <val key="LoginButton.sel#marUnit" value="2,2,2,2" />
+        <val key="LoginButton.sel#margin" value="3.0,3.0,1.0,1.0" />
+        <val key="LoginButton.sel#padUnit" value="2,2,2,2" />
+        <val key="LoginButton.sel#padding" value="2.0,2.0,2.0,2.0" />
+        <val key="LoginButton.sel#transparency" value="255" />
+        <val key="LoginButton.transparency" value="255" />
+        <val key="ProfilePic.align" value="4" />
+        <val key="ProfilePic.padUnit" value="2,2,2,2" />
+        <val key="ProfilePic.padding" value="3.0,3.0,3.0,3.0" />
+        <val key="ProfilePic.transparency" value="0" />
+        <val key="RegisterForm.bgImage" value="fs2.jpg" />
+        <val key="RegisterForm.bgType" value="1" />
+        <val key="SideCommand.align" value="1" />
+        <border key="SideCommand.border" type="empty" />
+        <val key="SideCommand.fgColor" value="a6aff1" />
+        <font key="SideCommand.font" type="ttf" face="0" style="0" size="0" name="native:MainLight" family="native:MainLight" sizeSettings="3" actualSize="3.0" />
+        <val key="SideCommand.padUnit" value="2,2,2,2" />
+        <val key="SideCommand.padding" value="4.0,0.0,3.0,2.0" />
+        <val key="SideCommand.press#align" value="1" />
+        <border key="SideCommand.press#border" type="empty" />
+        <val key="SideCommand.press#fgColor" value="a6aff1" />
+        <font key="SideCommand.press#font" type="ttf" face="0" style="0" size="0" name="native:MainLight" family="native:MainLight" sizeSettings="3" actualSize="2.5" />
+        <val key="SideCommand.press#padUnit" value="2,2,2,2" />
+        <val key="SideCommand.press#padding" value="3.0,0.0,3.0,2.0" />
+        <val key="SideCommand.press#transparency" value="0" />
+        <val key="SideCommand.sel#align" value="1" />
+        <border key="SideCommand.sel#border" type="empty" />
+        <val key="SideCommand.sel#fgColor" value="a6aff1" />
+        <font key="SideCommand.sel#font" type="ttf" face="0" style="0" size="0" name="native:MainLight" family="native:MainLight" sizeSettings="3" actualSize="2.5" />
+        <val key="SideCommand.sel#padUnit" value="2,2,2,2" />
+        <val key="SideCommand.sel#padding" value="3.0,0.0,3.0,2.0" />
+        <val key="SideCommand.sel#transparency" value="0" />
+        <val key="SideCommand.transparency" value="0" />
+        <val key="SideMenuTitle.fgColor" value="ffffff" />
+        <font key="SideMenuTitle.font" type="ttf" face="0" style="0" size="0" name="native:MainLight" family="native:MainLight" sizeSettings="3" actualSize="3.5" />
+        <val key="SideMenuTitle.margin" value="0.0,0.0,0.0,0.0" />
+        <val key="SideMenuTitle.padUnit" value="2,2,2,2" />
+        <val key="SideMenuTitle.padding" value="1.0,0.0,1.0,1.0" />
+        <val key="SideMenuTitle.transparency" value="0" />
+        <val key="SideNavigationPanel.bgColor" value="1d224b" />
+        <gradient key="SideNavigationPanel.bgGradient" color1="0" color2="0" posX="0.5" posY="0.5" radius="1.0" />
+        <val key="SideNavigationPanel.bgType" value="0" />
+        <border key="SideNavigationPanel.border" type="empty" />
+        <val key="SideNavigationPanel.margin" value="0.0,0.0,0.0,0.0" />
+        <val key="SideNavigationPanel.padding" value="0.0,0.0,0.0,0.0" />
+        <val key="SideNavigationPanel.transparency" value="255" />
+        <val key="SidemenuTop.bgImage" value="mp4.jpg" />
+        <val key="SidemenuTop.bgType" value="31" />
+        <val key="SidemenuTop.margin" value="0.0,0.0,0.0,0.0" />
+        <val key="SidemenuTop.padUnit" value="2,2,2,2" />
+        <val key="SidemenuTop.padding" value="20.0,2.0,2.0,2.0" />
+        <val key="StatusBarSideMenu.margin" value="0.0,0.0,0.0,0.0" />
+        <val key="StatusBarSideMenu.padding" value="0.0,0.0,0.0,0.0" />
+        <val key="StatusBarSideMenu.transparency" value="0" />
+        <val key="TextField.bgImage" value="text-field-underline.png" />
+        <val key="TextField.bgType" value="30" />
+        <border key="TextField.border" type="empty" />
+        <val key="TextField.fgColor" value="0" />
+        <font key="TextField.font" type="ttf" face="0" style="0" size="0" name="native:ItalicBold" family="native:ItalicBold" sizeSettings="3" actualSize="2.5" />
+        <val key="TextField.padUnit" value="2,2,2,2" />
+        <val key="TextField.padding" value="1.0,1.0,1.0,1.0" />
+        <val key="TextField.sel#bgImage" value="text-field-underline.png" />
+        <val key="TextField.sel#bgType" value="21" />
+        <border key="TextField.sel#border" type="empty" />
+        <val key="TextField.sel#fgColor" value="ffffff" />
+        <font key="TextField.sel#font" type="ttf" face="0" style="0" size="0" name="native:ItalicBold" family="native:ItalicBold" sizeSettings="3" actualSize="3.0" />
+        <val key="TextField.sel#transparency" value="0" />
+        <val key="TextField.transparency" value="0" />
+        <val key="Title.fgColor" value="ffffff" />
+        <font key="Title.font" type="ttf" face="0" style="0" size="0" name="native:MainLight" family="native:MainLight" sizeSettings="3" actualSize="4.5" />
+        <val key="Title.margin" value="0.0,0.0,0.0,0.0" />
+        <val key="Title.padUnit" value="2,2,2,2" />
+        <val key="Title.padding" value="1.0,0.0,1.0,1.0" />
+        <val key="Title.transparency" value="0" />
+        <val key="Toolbar.bgColor" value="cc0000" />
+        <val key="Toolbar.bgImage" value="mp4.jpg" />
+        <val key="Toolbar.bgType" value="20" />
+        <border key="Toolbar.border" type="empty" />
+        <val key="Toolbar.transparency" value="158" />
+        <val key="loginForm.bgImage" value="BackgroundRect.png" />
+        <val key="loginForm.bgType" value="33" />
+        <val key="loginForm.transparency" value="255" />
+        <val key="profileForm.bgColor" value="99ff" />
+        <val key="skip.align" value="3" />
+        <val key="skip.bgColor" value="ffffff" />
+        <val key="skip.fgColor" value="ffffff" />
+        <val key="skip.margin" value="0.0,0.0,0.0,0.0" />
+        <val key="skip.padding" value="0.0,0.0,0.0,0.0" />
+    </theme>
+    <theme name="ThemeComp">
+        <val key="@includeNativeBool" value="true" />
+        <val key="CompForm.bgColor" value="ff3300" />
+        <val key="CompForm.bgImage" value="BackgroundRect.png" />
+        <val key="CompForm.bgType" value="31" />
+        <val key="CompForm.transparency" value="178" />
+    </theme>
+    <image name="user-picture.jpg"  />
+    <image name="userIcon.png"  />
+</resource>
